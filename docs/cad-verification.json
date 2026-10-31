@@ -1,0 +1,70 @@
+[
+  {
+    "name": "default",
+    "config": {
+      "schemaVersion": 2,
+      "model": "sophimotion-education-parametric",
+      "name": "\u6559\u80b2\u7248\u5c0f\u8f66",
+      "geometry": {
+        "length": 90,
+        "wheelDiameter": 40,
+        "wheelWidth": 10
+      },
+      "wheelColor": "#fabc0b",
+      "pins": {
+        "PWMA": null,
+        "AIN1": null,
+        "AIN2": null,
+        "PWMB": null,
+        "BIN1": null,
+        "BIN2": null,
+        "STBY": null
+      },
+      "prices": {},
+      "motion": {
+        "maxDuty": 35,
+        "watchdogMs": 400,
+        "outputRPM": 150,
+        "leftSign": 1,
+        "rightSign": 1
+      }
+    },
+    "all_solids_valid": true,
+    "part_count": 106,
+    "intersections": []
+  },
+  {
+    "name": "extended",
+    "config": {
+      "schemaVersion": 2,
+      "model": "sophimotion-education-parametric",
+      "name": "\u6559\u80b2\u7248\u5c0f\u8f66",
+      "geometry": {
+        "length": 130,
+        "wheelDiameter": 52,
+        "wheelWidth": 14
+      },
+      "wheelColor": "#fabc0b",
+      "pins": {
+        "PWMA": null,
+        "AIN1": null,
+        "AIN2": null,
+        "PWMB": null,
+        "BIN1": null,
+        "BIN2": null,
+        "STBY": null
+      },
+      "prices": {},
+      "motion": {
+        "maxDuty": 35,
+        "watchdogMs": 400,
+        "outputRPM": 150,
+        "leftSign": 1,
+        "rightSign": 1
+      }
+    },
+    "all_solids_valid": true,
+    "part_count": 106,
+    "intersections": []
+  }
+]

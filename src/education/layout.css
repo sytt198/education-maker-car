@@ -1,0 +1,2 @@
+@media(min-width:601px){.education-app{height:100vh;min-height:650px}.app-header,.app-tabs,.app-footer{flex-shrink:0}.workspace{min-height:0;overflow:auto}.page-structure{flex:none;height:calc(100vh - 160px);min-height:0}.page-structure>*{min-height:0}.page-code{overflow:auto}}
+@media(max-width:600px){.education-app{height:auto;min-height:100vh}.workspace{overflow:visible}.page-structure{height:auto}.stage{flex-shrink:0}}

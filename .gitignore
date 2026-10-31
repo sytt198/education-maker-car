@@ -1,0 +1,10 @@
+node_modules/
+dist/
+.qa/
+__pycache__/
+*.pyc
+.env
+.env.*
+!.env.example
+*.log
+engineering/MakerCar-project.zip

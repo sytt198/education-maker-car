@@ -1,0 +1,1098 @@
+{
+  "complete": true,
+  "component_count": 106,
+  "joints": 4,
+  "config": {
+    "schemaVersion": 2,
+    "model": "sophimotion-education-parametric",
+    "name": "教育版小车",
+    "geometry": {
+      "length": 130,
+      "wheelDiameter": 52,
+      "wheelWidth": 14
+    },
+    "wheelColor": "#0057ff",
+    "pins": {
+      "PWMA": null,
+      "AIN1": null,
+      "AIN2": null,
+      "PWMB": null,
+      "BIN1": null,
+      "BIN2": null,
+      "STBY": null
+    },
+    "prices": {},
+    "motion": {
+      "maxDuty": 35,
+      "watchdogMs": 400,
+      "outputRPM": 150,
+      "leftSign": 1,
+      "rightSign": 1
+    }
+  },
+  "parts": [
+    {
+      "id": "motor_left",
+      "solid_count": 1,
+      "source_sha256": "070204c1e119fe74f16660d4e9f01e0b7deac63dd750808bbf39635a5455ff70",
+      "translation_mm": [
+        0,
+        20,
+        6
+      ]
+    },
+    {
+      "id": "motor_shaft_left",
+      "solid_count": 1,
+      "source_sha256": "1da5492d7e45c497034ebbf7bec09675fce053aedd94f39ffd639dfe50884ec3",
+      "translation_mm": [
+        0,
+        20,
+        6
+      ]
+    },
+    {
+      "id": "motor_right",
+      "solid_count": 1,
+      "source_sha256": "7f1d99d7afb8f7ec1eedeb3d5e32f2d4c52f40d784e78b5bb8c11f23952f3302",
+      "translation_mm": [
+        0,
+        20,
+        6
+      ]
+    },
+    {
+      "id": "motor_shaft_right",
+      "solid_count": 1,
+      "source_sha256": "c1eb8a0cbd8c7d784e45e09f86d580c462300b8cf21ddd67a1f79fbab3aa0c9e",
+      "translation_mm": [
+        0,
+        20,
+        6
+      ]
+    },
+    {
+      "id": "pcb_insert_0",
+      "solid_count": 1,
+      "source_sha256": "cb9994daa25821eef8551835f635d69fd1ddedd5120137c284a4aa8653c0c5c5",
+      "translation_mm": [
+        0,
+        0,
+        6
+      ]
+    },
+    {
+      "id": "pcb_screw_0",
+      "solid_count": 1,
+      "source_sha256": "fe2f576e51786852d993f39c9ef1535f9d2f8cd72f6b20f3dde2a663ad60d227",
+      "translation_mm": [
+        0,
+        0,
+        6
+      ]
+    },
+    {
+      "id": "pcb_insert_1",
+      "solid_count": 1,
+      "source_sha256": "4bc89daad7d1b6d237e7c3144bf020199e35a2d7a4f8b8a9c58a52de8e5126aa",
+      "translation_mm": [
+        0,
+        0,
+        6
+      ]
+    },
+    {
+      "id": "pcb_screw_1",
+      "solid_count": 1,
+      "source_sha256": "d2e1cde44e5ff62f542ec4b10d295c3dcc098618436de416e4379171da0ec0c1",
+      "translation_mm": [
+        0,
+        0,
+        6
+      ]
+    },
+    {
+      "id": "pcb_insert_2",
+      "solid_count": 1,
+      "source_sha256": "4453ecba5b3eb26712cafcb20358c245ec819b2dbf88d83418101696690da4e8",
+      "translation_mm": [
+        0,
+        0,
+        6
+      ]
+    },
+    {
+      "id": "pcb_screw_2",
+      "solid_count": 1,
+      "source_sha256": "b9bb53b2accabc1d964ad061a3139246bb8765205010d81f357180b75e5a6e26",
+      "translation_mm": [
+        0,
+        0,
+        6
+      ]
+    },
+    {
+      "id": "pcb_insert_3",
+      "solid_count": 1,
+      "source_sha256": "b32f788367cf1675070cd153e22183b92fe04706642558fb9fb1b1ecbab5baed",
+      "translation_mm": [
+        0,
+        0,
+        6
+      ]
+    },
+    {
+      "id": "pcb_screw_3",
+      "solid_count": 1,
+      "source_sha256": "280b35a2070a8812d4212b47b58b582fe5f6d6907d401ffd1d7882e8c4dba224",
+      "translation_mm": [
+        0,
+        0,
+        6
+      ]
+    },
+    {
+      "id": "pcb",
+      "solid_count": 1,
+      "source_sha256": "297860d0efed857a9f40d1965cf34c4d5afd7933e14a1c108f5befdd77eafef0",
+      "translation_mm": [
+        0,
+        0,
+        6
+      ]
+    },
+    {
+      "id": "motor_mount_left_92",
+      "solid_count": 1,
+      "source_sha256": "1ef3d9fb6469e259c163177f275f26cc6f47471365a969ae4d6f2f34977de94e",
+      "translation_mm": [
+        0,
+        20,
+        6
+      ]
+    },
+    {
+      "id": "motor_nut_left_92",
+      "solid_count": 1,
+      "source_sha256": "b76cf07cf59020bd323d1e65ae3619376a9cdad476d31ef53b38f15e0f980155",
+      "translation_mm": [
+        0,
+        20,
+        6
+      ]
+    },
+    {
+      "id": "motor_mount_left_134",
+      "solid_count": 1,
+      "source_sha256": "6719cc59afe633898ae96e8eddfe1369ddf98deb2cc7d17a74991090f2e426e5",
+      "translation_mm": [
+        0,
+        20,
+        6
+      ]
+    },
+    {
+      "id": "motor_nut_left_134",
+      "solid_count": 1,
+      "source_sha256": "1115616ff3caa6bb8d964a35a8af192ab0e91876d20f3eb8ffa57f91ada395fa",
+      "translation_mm": [
+        0,
+        20,
+        6
+      ]
+    },
+    {
+      "id": "motor_cradle_left",
+      "solid_count": 1,
+      "source_sha256": "c4fd3b2d3b88eddffd8b9dca6625a90fb3ab9737084c49b9cf0b2e605b9fcb50",
+      "translation_mm": [
+        0,
+        20,
+        6
+      ]
+    },
+    {
+      "id": "motor_pad_left",
+      "solid_count": 1,
+      "source_sha256": "2e13a0f1c4e9a24d168602003952c1108bccf29c57c19eec840c171a3d922f12",
+      "translation_mm": [
+        0,
+        20,
+        6
+      ]
+    },
+    {
+      "id": "motor_mount_right_92",
+      "solid_count": 1,
+      "source_sha256": "cc8394976b19b05b2d2362155fad46e1ff5353db31ac9b38a4a5983a2537f35a",
+      "translation_mm": [
+        0,
+        20,
+        6
+      ]
+    },
+    {
+      "id": "motor_nut_right_92",
+      "solid_count": 1,
+      "source_sha256": "a9ec87bb453d1d414ff0d543d0019feed136c24a410ca0ed9cc1e6467835d3ea",
+      "translation_mm": [
+        0,
+        20,
+        6
+      ]
+    },
+    {
+      "id": "motor_mount_right_134",
+      "solid_count": 1,
+      "source_sha256": "3c4f04ac8e0e8500af881579412895266d83938f6025c24bde61706f7d3d9e78",
+      "translation_mm": [
+        0,
+        20,
+        6
+      ]
+    },
+    {
+      "id": "motor_nut_right_134",
+      "solid_count": 1,
+      "source_sha256": "90fda27fb89640c42c070a3aa2470282c72ebd7da51110a17b87db4b5ca51ed5",
+      "translation_mm": [
+        0,
+        20,
+        6
+      ]
+    },
+    {
+      "id": "motor_cradle_right",
+      "solid_count": 1,
+      "source_sha256": "c083f48c5ece1e2b8d88152533c35768a9e38dfd0981ebbd96b9012afe9443d1",
+      "translation_mm": [
+        0,
+        20,
+        6
+      ]
+    },
+    {
+      "id": "motor_pad_right",
+      "solid_count": 1,
+      "source_sha256": "3a5a9e52f7e05053acfcd7a66dd3a9249c10a90e67894a202165115f7e039ac0",
+      "translation_mm": [
+        0,
+        20,
+        6
+      ]
+    },
+    {
+      "id": "wheel_rear_left",
+      "solid_count": 1,
+      "source_sha256": "9188f65e6d199f4afa5466535cc8c52f387d485e86a74272d9a6a4f0e476dae9",
+      "translation_mm": [
+        0,
+        20,
+        6
+      ]
+    },
+    {
+      "id": "drive_lock_nut_left",
+      "solid_count": 1,
+      "source_sha256": "6528b0f9dda1f6bd6807c974003e7a49f6763434d2a16be51d794baf573671ad",
+      "translation_mm": [
+        0,
+        20,
+        6
+      ]
+    },
+    {
+      "id": "drive_set_screw_left",
+      "solid_count": 1,
+      "source_sha256": "62f4ef9a7d35d9513aa948050a8b087f4152203d5481191946bb913fa0bc947b",
+      "translation_mm": [
+        0,
+        20,
+        6
+      ]
+    },
+    {
+      "id": "wheel_rear_right",
+      "solid_count": 1,
+      "source_sha256": "2fcf5f34fd068080621b9a967c8a5d6076e71209ee3138962ce3dcfda41e4ae3",
+      "translation_mm": [
+        0,
+        20,
+        6
+      ]
+    },
+    {
+      "id": "drive_lock_nut_right",
+      "solid_count": 1,
+      "source_sha256": "c587cb3ac931ada51f16c2e677421f1bba59c520f14b2b637e98372de7f5cf11",
+      "translation_mm": [
+        0,
+        20,
+        6
+      ]
+    },
+    {
+      "id": "drive_set_screw_right",
+      "solid_count": 1,
+      "source_sha256": "4c5a5f97ec3df3e2336c6c9100a0bb85134659c43809feec2a8ca651250dc23d",
+      "translation_mm": [
+        0,
+        20,
+        6
+      ]
+    },
+    {
+      "id": "idler_mount_left_66",
+      "solid_count": 1,
+      "source_sha256": "4fa33d70a7f2a2e98db3c2e6d0c1197cf862652d738b25a1b40771049761a482",
+      "translation_mm": [
+        0,
+        -20,
+        6
+      ]
+    },
+    {
+      "id": "idler_nut_left_66",
+      "solid_count": 1,
+      "source_sha256": "4113246ea813cc626c8d156b46d38054edae0c730a8d00d390c8c08a3e51ba2b",
+      "translation_mm": [
+        0,
+        -20,
+        6
+      ]
+    },
+    {
+      "id": "idler_mount_left_82",
+      "solid_count": 1,
+      "source_sha256": "c7904065e8aad6a23599a74eef644cc8a9f00218777ddbcb5014a52dceabe54e",
+      "translation_mm": [
+        0,
+        -20,
+        6
+      ]
+    },
+    {
+      "id": "idler_nut_left_82",
+      "solid_count": 1,
+      "source_sha256": "8aac36180f3965385807934e96f0f15553f5fd58278d6132619cd3a297749699",
+      "translation_mm": [
+        0,
+        -20,
+        6
+      ]
+    },
+    {
+      "id": "idler_carrier_left",
+      "solid_count": 1,
+      "source_sha256": "cf734f8703805495cc1fb8da6a6f75e8188436129a559beebf4dd7f2ec5141cf",
+      "translation_mm": [
+        0,
+        -20,
+        6
+      ]
+    },
+    {
+      "id": "idler_clamp_screw_left",
+      "solid_count": 1,
+      "source_sha256": "68cfe51ce1912ee02e763dfa2fa8b422a14f5e50932a22e0c24fc3052ff7bd7d",
+      "translation_mm": [
+        0,
+        -20,
+        6
+      ]
+    },
+    {
+      "id": "idler_clamp_nut_left",
+      "solid_count": 1,
+      "source_sha256": "c7d688a9536fdd38cefcef4ac51f262f63af81f14feebcabfbefc8e98bbe781b",
+      "translation_mm": [
+        0,
+        -20,
+        6
+      ]
+    },
+    {
+      "id": "wheel_front_left",
+      "solid_count": 1,
+      "source_sha256": "9b24a2e6b3ce7a8c06b1f9749ac792eb54039968a8bae5ec1cfdd78f31f8ed5f",
+      "translation_mm": [
+        0,
+        -20,
+        6
+      ]
+    },
+    {
+      "id": "bearing_outer_left_0",
+      "solid_count": 1,
+      "source_sha256": "7ffcb478d9811700c324de2246ca082a5c5c946cfca3d715036638fb8a759d46",
+      "translation_mm": [
+        0,
+        -20,
+        6
+      ]
+    },
+    {
+      "id": "bearing_inner_left_0",
+      "solid_count": 1,
+      "source_sha256": "d70f509e29265a038104cf65c1b8cdc8f365dd07b9c6110270da7d703681f910",
+      "translation_mm": [
+        0,
+        -20,
+        6
+      ]
+    },
+    {
+      "id": "bearing_outer_left_1",
+      "solid_count": 1,
+      "source_sha256": "748f45174d2ff719a0543ce8f9e29f670ee7c48973ab5712f00b13d571a247a1",
+      "translation_mm": [
+        0,
+        -20,
+        6
+      ]
+    },
+    {
+      "id": "bearing_inner_left_1",
+      "solid_count": 1,
+      "source_sha256": "c38d2756880b5b5d3354342ccd394a6f8515a15fb9ea2bcf4ee9624fd8aa23c7",
+      "translation_mm": [
+        0,
+        -20,
+        6
+      ]
+    },
+    {
+      "id": "spacer_internal_left",
+      "solid_count": 1,
+      "source_sha256": "f365b46ef2235e3e789caec4c49716d61f109ff95e285c87fa295a323bba1a23",
+      "translation_mm": [
+        0,
+        -20,
+        6
+      ]
+    },
+    {
+      "id": "spacer_inboard_left",
+      "solid_count": 1,
+      "source_sha256": "c049dee1eb933eea8a09577510ff51f112f3be87d00c3caad85e97d8fd94a23c",
+      "translation_mm": [
+        0,
+        -20,
+        6
+      ]
+    },
+    {
+      "id": "spacer_outboard_left",
+      "solid_count": 1,
+      "source_sha256": "4d0301a393b060b3d192f961aca18c8d4e7003250ed0856ac1f828eb89f2eadf",
+      "translation_mm": [
+        0,
+        -20,
+        6
+      ]
+    },
+    {
+      "id": "front_axle_left",
+      "solid_count": 1,
+      "source_sha256": "95520341669d7cb4d3348edc919f7a5d61ecfe757654b6165fffa423bf2411d8",
+      "translation_mm": [
+        0,
+        -20,
+        6
+      ]
+    },
+    {
+      "id": "shaft_collar_left",
+      "solid_count": 1,
+      "source_sha256": "0ac099a7c61a3324afa2fe8f2f7148c86410b5fb316f689ed88d49c6a9122f0a",
+      "translation_mm": [
+        0,
+        -20,
+        6
+      ]
+    },
+    {
+      "id": "collar_set_screw_left",
+      "solid_count": 1,
+      "source_sha256": "643e5669a7948457b1acdbb5b59e0b3df923dcf950e397ab49fc81ff9cb0fa4e",
+      "translation_mm": [
+        0,
+        -20,
+        6
+      ]
+    },
+    {
+      "id": "bearing_cap_left_0",
+      "solid_count": 1,
+      "source_sha256": "969df6a60ef5c023b39f337a132c75fe5953d2e1b7a48904c0dbe0d084048709",
+      "translation_mm": [
+        0,
+        -20,
+        6
+      ]
+    },
+    {
+      "id": "bearing_cap_left_1",
+      "solid_count": 1,
+      "source_sha256": "25770bc261f582669589e7a78ab4a288383f8563caac84e1ee16b774889853c3",
+      "translation_mm": [
+        0,
+        -20,
+        6
+      ]
+    },
+    {
+      "id": "cap_screw_left_0",
+      "solid_count": 1,
+      "source_sha256": "67dbe41a3cdbf33e527d37a897b257cbcf1d39f0f8d901aa2ebbf7804a0b2165",
+      "translation_mm": [
+        0,
+        -20,
+        6
+      ]
+    },
+    {
+      "id": "cap_nut_left_0",
+      "solid_count": 1,
+      "source_sha256": "ec5f1b06830505377138002d5a299d9320c88810cc2c2b0270a056085631576e",
+      "translation_mm": [
+        0,
+        -20,
+        6
+      ]
+    },
+    {
+      "id": "cap_screw_left_1",
+      "solid_count": 1,
+      "source_sha256": "8c653f9f26abfbda6ba5b71c9f8a152574296a34a79c2c281d22dff43a2ea57d",
+      "translation_mm": [
+        0,
+        -20,
+        6
+      ]
+    },
+    {
+      "id": "cap_nut_left_1",
+      "solid_count": 1,
+      "source_sha256": "39c7f67805e67efd6d9ad14bb86323cce91e2132624b682bd9ab60579bc57e6b",
+      "translation_mm": [
+        0,
+        -20,
+        6
+      ]
+    },
+    {
+      "id": "cap_screw_left_2",
+      "solid_count": 1,
+      "source_sha256": "f9daa3a31f4d35da06edca1854d7ab727ae9dfe7836525fc8f42099694fd7cc2",
+      "translation_mm": [
+        0,
+        -20,
+        6
+      ]
+    },
+    {
+      "id": "cap_nut_left_2",
+      "solid_count": 1,
+      "source_sha256": "03094f30a029a6c0a0c017949bfe3738ce0b759d8fdd2a536832dd9924d3cbc0",
+      "translation_mm": [
+        0,
+        -20,
+        6
+      ]
+    },
+    {
+      "id": "idler_mount_right_66",
+      "solid_count": 1,
+      "source_sha256": "5d4c1a79b2a65d868537d7aa5c00497cbfb4ecda1abd2e16bfcc8b5a1a263496",
+      "translation_mm": [
+        0,
+        -20,
+        6
+      ]
+    },
+    {
+      "id": "idler_nut_right_66",
+      "solid_count": 1,
+      "source_sha256": "03f8f9d9fd075072df416418fa632f40563aab213d55dd7f8f8b4f2370f4fbf6",
+      "translation_mm": [
+        0,
+        -20,
+        6
+      ]
+    },
+    {
+      "id": "idler_mount_right_82",
+      "solid_count": 1,
+      "source_sha256": "45889b725fadba49b4f0f01d3ad7fe2b45f7744a5fe329efd0b6fc24ae71dae5",
+      "translation_mm": [
+        0,
+        -20,
+        6
+      ]
+    },
+    {
+      "id": "idler_nut_right_82",
+      "solid_count": 1,
+      "source_sha256": "69c9745180fcc87fa0097025b444ab7df10bd0a5a708a595c76414ca10026953",
+      "translation_mm": [
+        0,
+        -20,
+        6
+      ]
+    },
+    {
+      "id": "idler_carrier_right",
+      "solid_count": 1,
+      "source_sha256": "5eedac84d1d2795a5ced7e699a956c54a722747ec755bf4efc90eaf337415376",
+      "translation_mm": [
+        0,
+        -20,
+        6
+      ]
+    },
+    {
+      "id": "idler_clamp_screw_right",
+      "solid_count": 1,
+      "source_sha256": "7617e2eb85835aded8a5c4655e286fd3ea7728bfb881777f8b9af8d0f4cbb0ff",
+      "translation_mm": [
+        0,
+        -20,
+        6
+      ]
+    },
+    {
+      "id": "idler_clamp_nut_right",
+      "solid_count": 1,
+      "source_sha256": "a364997bbd668fab8145c5bfe638f69c7cee3d84d1a0e1d1d1bc2b8f96796ea7",
+      "translation_mm": [
+        0,
+        -20,
+        6
+      ]
+    },
+    {
+      "id": "wheel_front_right",
+      "solid_count": 1,
+      "source_sha256": "0f8f80e89da0320bc308c7d062ffe1aa15a235664da20510d2dbba198e9a6d80",
+      "translation_mm": [
+        0,
+        -20,
+        6
+      ]
+    },
+    {
+      "id": "bearing_outer_right_0",
+      "solid_count": 1,
+      "source_sha256": "c45dee792fc476b575e318bef378320709073847de3abe4c763a9db175431977",
+      "translation_mm": [
+        0,
+        -20,
+        6
+      ]
+    },
+    {
+      "id": "bearing_inner_right_0",
+      "solid_count": 1,
+      "source_sha256": "17d596c55a36914b1d6e7ee2a711dec3176234b50ce371e5b70721c74dc3658d",
+      "translation_mm": [
+        0,
+        -20,
+        6
+      ]
+    },
+    {
+      "id": "bearing_outer_right_1",
+      "solid_count": 1,
+      "source_sha256": "6c6e75c50f36c1bb3d72cb2d3ee08c5f7eea0fc08c5b2b9fdfc9f3cf7fafa58a",
+      "translation_mm": [
+        0,
+        -20,
+        6
+      ]
+    },
+    {
+      "id": "bearing_inner_right_1",
+      "solid_count": 1,
+      "source_sha256": "91adc9bf10fd5e4c30c51ccd6ccf1280f1806a6bab7b9cdce1729f0b7517b2fb",
+      "translation_mm": [
+        0,
+        -20,
+        6
+      ]
+    },
+    {
+      "id": "spacer_internal_right",
+      "solid_count": 1,
+      "source_sha256": "77e4306da31242848c7acd1b31afef0e39aa01617f8eca108f1134454d704943",
+      "translation_mm": [
+        0,
+        -20,
+        6
+      ]
+    },
+    {
+      "id": "spacer_inboard_right",
+      "solid_count": 1,
+      "source_sha256": "054a2a2c4e6698beeb74d3ae6d88f1349e87b8165d303567ee53a5c3c55b769c",
+      "translation_mm": [
+        0,
+        -20,
+        6
+      ]
+    },
+    {
+      "id": "spacer_outboard_right",
+      "solid_count": 1,
+      "source_sha256": "8e0323c9f50d7ab23d0a714a1c7853e10a1e873503ce95947d3b63391137f237",
+      "translation_mm": [
+        0,
+        -20,
+        6
+      ]
+    },
+    {
+      "id": "front_axle_right",
+      "solid_count": 1,
+      "source_sha256": "7cf428060af78d33ba290a7ea3c5e84a18877d75f79554831aec71463df39250",
+      "translation_mm": [
+        0,
+        -20,
+        6
+      ]
+    },
+    {
+      "id": "shaft_collar_right",
+      "solid_count": 1,
+      "source_sha256": "af6fc522a1cec82e22dd292eeccd8fcc61ab0e56a3f256b13412df9cfeb35503",
+      "translation_mm": [
+        0,
+        -20,
+        6
+      ]
+    },
+    {
+      "id": "collar_set_screw_right",
+      "solid_count": 1,
+      "source_sha256": "fa6814165ffc9f117e481eeb2ec4319fbdf8c384959e81fe0ae1f8962366e7d5",
+      "translation_mm": [
+        0,
+        -20,
+        6
+      ]
+    },
+    {
+      "id": "bearing_cap_right_0",
+      "solid_count": 1,
+      "source_sha256": "915c1f1f1183e7fd1c4f5ccbcc4fe1357e4d9f63cb8ca87bf42088b79a1e9dab",
+      "translation_mm": [
+        0,
+        -20,
+        6
+      ]
+    },
+    {
+      "id": "bearing_cap_right_1",
+      "solid_count": 1,
+      "source_sha256": "c36fd65cb7a4fd2444e3e416fc687d8b8509c8e93d0f3b6f95e99c77f61df13e",
+      "translation_mm": [
+        0,
+        -20,
+        6
+      ]
+    },
+    {
+      "id": "cap_screw_right_0",
+      "solid_count": 1,
+      "source_sha256": "7cd95e77bf09a88c6360f6e06bed0b09e1b58d7dcdf3ad9b56a5bf8c490ea0e7",
+      "translation_mm": [
+        0,
+        -20,
+        6
+      ]
+    },
+    {
+      "id": "cap_nut_right_0",
+      "solid_count": 1,
+      "source_sha256": "a4138640900d22734fe14cc33546412793aeb10c5362cfb52051109b9c0cc962",
+      "translation_mm": [
+        0,
+        -20,
+        6
+      ]
+    },
+    {
+      "id": "cap_screw_right_1",
+      "solid_count": 1,
+      "source_sha256": "05129ba369c1b8de215c0909efc9b2819ec9454546f5547b0fc617447abea42a",
+      "translation_mm": [
+        0,
+        -20,
+        6
+      ]
+    },
+    {
+      "id": "cap_nut_right_1",
+      "solid_count": 1,
+      "source_sha256": "7362872d6e465e117c68b6de22165c4297b22df7bb548de20f6b796f97e2d265",
+      "translation_mm": [
+        0,
+        -20,
+        6
+      ]
+    },
+    {
+      "id": "cap_screw_right_2",
+      "solid_count": 1,
+      "source_sha256": "e3ab7f4fb1e1d89910999b317f8b82ce56de784a090b87c6105c86533f4590ff",
+      "translation_mm": [
+        0,
+        -20,
+        6
+      ]
+    },
+    {
+      "id": "cap_nut_right_2",
+      "solid_count": 1,
+      "source_sha256": "b477830e5690a5e363cc857fea4104094c8ed30933a7d5db2f6194ca11c0ff3e",
+      "translation_mm": [
+        0,
+        -20,
+        6
+      ]
+    },
+    {
+      "id": "tray_screw_81.6_90",
+      "solid_count": 1,
+      "source_sha256": "5cadd5b213108917455a7c3758a3ee7b29de6e293709f2a7bc43d75bb0ba60fa",
+      "translation_mm": [
+        0,
+        0,
+        6
+      ]
+    },
+    {
+      "id": "tray_nut_81.6_90",
+      "solid_count": 1,
+      "source_sha256": "1f6efbda074c9a7618180bc7c90a3499201f12bb27ad84085e9548b0ab13ccb2",
+      "translation_mm": [
+        0,
+        0,
+        6
+      ]
+    },
+    {
+      "id": "tray_screw_81.6_105",
+      "solid_count": 1,
+      "source_sha256": "0e32ba12ba33558d458331f5c44712d0753212304f7185960a8fce841a923379",
+      "translation_mm": [
+        0,
+        0,
+        6
+      ]
+    },
+    {
+      "id": "tray_nut_81.6_105",
+      "solid_count": 1,
+      "source_sha256": "dac0d448fbec6141ca649b6903563fa2143df555ac02821b61ee0acbebcc83ad",
+      "translation_mm": [
+        0,
+        0,
+        6
+      ]
+    },
+    {
+      "id": "tray_screw_118.4_90",
+      "solid_count": 1,
+      "source_sha256": "739b6f805ae1b9217cedf392a207d4b5ea04226405fcfabf28495dd563a7203f",
+      "translation_mm": [
+        0,
+        0,
+        6
+      ]
+    },
+    {
+      "id": "tray_nut_118.4_90",
+      "solid_count": 1,
+      "source_sha256": "bc06869525c242bffdb39b06510820cc68cf3cc576704ec6f4f847b3e36abc76",
+      "translation_mm": [
+        0,
+        0,
+        6
+      ]
+    },
+    {
+      "id": "tray_screw_118.4_105",
+      "solid_count": 1,
+      "source_sha256": "43f7406cb6ee2e6f068102860dc408a8e0f3e9fb5e854223d367cd7aa2e3fb8e",
+      "translation_mm": [
+        0,
+        0,
+        6
+      ]
+    },
+    {
+      "id": "tray_nut_118.4_105",
+      "solid_count": 1,
+      "source_sha256": "2fc10f2e0885776dae0d65f597c38bcd5113562a8701d72bdce2b0cfb1aa5f65",
+      "translation_mm": [
+        0,
+        0,
+        6
+      ]
+    },
+    {
+      "id": "battery_tray",
+      "solid_count": 1,
+      "source_sha256": "bd3c173c40185ef743401055864df8eed06884d55f1d90d03900e164128d00ac",
+      "translation_mm": [
+        0,
+        0,
+        6
+      ]
+    },
+    {
+      "id": "battery",
+      "solid_count": 1,
+      "source_sha256": "24630f53d539702146f0a93dbecd9f05927d554d6d9c77945c7f4326a8839b47",
+      "translation_mm": [
+        0,
+        0,
+        6
+      ]
+    },
+    {
+      "id": "battery_top_pad",
+      "solid_count": 1,
+      "source_sha256": "6fdeaa61113da87ea06f85cc311c774e3efa9079675d21b3ebd1435b6b981d91",
+      "translation_mm": [
+        0,
+        0,
+        6
+      ]
+    },
+    {
+      "id": "display_mount_68_105",
+      "solid_count": 1,
+      "source_sha256": "7d64d4f1e51fb7ab7740547a1a63061946ce096318980cc3bd43b0abfe118996",
+      "translation_mm": [
+        0,
+        20,
+        6
+      ]
+    },
+    {
+      "id": "display_nut_68_105",
+      "solid_count": 1,
+      "source_sha256": "4361fc744e909e92f6a2d24d1c5940004cbc290bf2b18fca1503b138c0c76e22",
+      "translation_mm": [
+        0,
+        20,
+        6
+      ]
+    },
+    {
+      "id": "display_mount_68_117",
+      "solid_count": 1,
+      "source_sha256": "ac01ba1862c6494349b0634211e4702c01ec72427a08115a38bbee4c5bc2ef4f",
+      "translation_mm": [
+        0,
+        20,
+        6
+      ]
+    },
+    {
+      "id": "display_nut_68_117",
+      "solid_count": 1,
+      "source_sha256": "5bf2a3d27feff2856781875255cda98aad1cf4a298040a14bce442ba51aee0cf",
+      "translation_mm": [
+        0,
+        20,
+        6
+      ]
+    },
+    {
+      "id": "display_mount_132_105",
+      "solid_count": 1,
+      "source_sha256": "25b986f70f4a221148eeac55009779a25eba291dcfbe71e3d74f7b200374308b",
+      "translation_mm": [
+        0,
+        20,
+        6
+      ]
+    },
+    {
+      "id": "display_nut_132_105",
+      "solid_count": 1,
+      "source_sha256": "39abb97f5d13e068d491686a0a1b381319619158983455a01bf1ea8827d672b6",
+      "translation_mm": [
+        0,
+        20,
+        6
+      ]
+    },
+    {
+      "id": "display_mount_132_117",
+      "solid_count": 1,
+      "source_sha256": "d614a6a07b300b64e9e0caabfa8c76f8b60765cfec1d70e1a70cb3d0c1b98a13",
+      "translation_mm": [
+        0,
+        20,
+        6
+      ]
+    },
+    {
+      "id": "display_nut_132_117",
+      "solid_count": 1,
+      "source_sha256": "8c72e437b7039db97cc0994565a0261f240e64f455b0413223c0ede8b44f1919",
+      "translation_mm": [
+        0,
+        20,
+        6
+      ]
+    },
+    {
+      "id": "display_support",
+      "solid_count": 1,
+      "source_sha256": "20d639a9a0f284c6915b167ffc054ae8e1b6881aa3447338cde89a8d3a4818af",
+      "translation_mm": [
+        0,
+        20,
+        6
+      ]
+    },
+    {
+      "id": "mosaico",
+      "solid_count": 1,
+      "source_sha256": "0ddaa4b9a462c6e674eb9b60cd1004aaa955b0c4cd192387837fd90a8bd97562",
+      "translation_mm": [
+        0,
+        20,
+        6
+      ]
+    },
+    {
+      "id": "screen_front",
+      "solid_count": 1,
+      "source_sha256": "15ca0c74ce29161a145f4dd01ac15a9521a28a27ebe89ba276a0e96bf400334e",
+      "translation_mm": [
+        0,
+        20,
+        6
+      ]
+    },
+    {
+      "id": "chassis",
+      "solid_count": 1,
+      "source_sha256": "e4c141862d9512cd8acc2e1ef1c0c427736fc1803745fe45d474ec52416118f1",
+      "translation_mm": [
+        0,
+        0,
+        6
+      ]
+    }
+  ],
+  "warnings": [],
+  "physical_fit_validated": false,
+  "new_parameter_collision_sweep_validated": false
+}

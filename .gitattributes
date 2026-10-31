@@ -1,0 +1,5 @@
+* text=auto
+*.step -text
+*.f3d -text
+*.png -text
+*.jpg -text
